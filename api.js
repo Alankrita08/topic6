@@ -29,12 +29,11 @@ app.use(function (req, res, next) {
  *  }
  * @apiSuccessExample {json} Success-Response:
  * {
- *     response : "A new device added successfully !!"
+ *    "A new device added successfully !!"
  * }
  * @apiErrorExample {json} Error-Response:
      {
-         response: "Error!! Device not added",
-         error: errorMessage
+        "Error!! Device not added"   
      }
  * 
  */
